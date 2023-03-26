@@ -1,0 +1,16 @@
+@api = http://localhost:3000/incidentes
+
+GET {{api}}
+
+###
+POST  {{api}}
+Content-Type: application/json
+
+{
+    "titulo": "nuevo Inc",
+    "descripcion": "problema con tarjetas"
+}
+
+
+###
+GET  {{api}}/1
