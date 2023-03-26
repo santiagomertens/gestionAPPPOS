@@ -12,5 +12,24 @@ Content-Type: application/json
 }
 
 
-###
-GET  {{api}}/1
+### get incidente por Id
+GET  {{api}}/3
+
+
+### eliminar incidente
+
+DELETE  {{api}}/2
+
+### total incideentes
+GET {{api}}/count
+
+
+###update incidente
+put {{api}}/3
+Content-Type: application/json
+
+{
+    "titulo": "Masivo Pangui",
+    "descripcion": "Error al cargar promociones"
+}
+
